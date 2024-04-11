@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,700&display=swap');
 @font-face {
     src: url(./assets/PixelifySans-VariableFont_wght.ttf);
     font-family: minecraft; /* Corregido: cambia "minecraf" a "minecraft" */
@@ -23,7 +23,8 @@ h1,h2{
 }
 body{
     /* font-family: 'Figtree', sans-serif; */
-    font-family: "minecraft";
+    /* font-family: "minecraft"; */
+    font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
 }
 .content{
