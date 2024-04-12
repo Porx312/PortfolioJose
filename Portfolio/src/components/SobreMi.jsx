@@ -1,5 +1,5 @@
 import { useContext } from "react"
-import aboutmeimg from "../assets/me.jpg"
+import aboutmeimg from "../assets/sobremiPIcture.jpg"
 import "./sobremi.css"
 import { isDarkOrLight } from "../DarkModeContext"
 const SobreMi = () => {

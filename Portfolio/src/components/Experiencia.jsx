@@ -12,7 +12,7 @@ const Experiencia = () => {
                     <p>24/12/21- Actualmente</p>
                 </div>
                 <div className="asignation">
-                    <p>Como programador autodidacta, he cultivado un conjunto impresionante de habilidades a través de proyectos personales y práctica intensiva. Mi capacidad para resolver problemas, mi creatividad en el desarrollo de soluciones y mi enfoque apasionado hacia la codificación destacan mi capacidad para enfrentar desafíos en el mundo de la programación, a pesar de carecer de experiencia laboral formal.</p>
+                    <p>Como programador autodidacta, he cultivado un conjunto impresionante de habilidades a través de proyectos personales y práctica intensiva. Desarrollan mi capacidad para resolver problemas, mi creatividad en el desarrollo de soluciones y mi enfoque apasionado hacia la codificación destacan mi capacidad para enfrentar desafíos en el mundo de la programación, a pesar de carecer de experiencia laboral formal.</p>
                 </div>
             </article>
             <article className="experience-card">

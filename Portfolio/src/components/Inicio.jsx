@@ -1,4 +1,4 @@
-import me from "../assets/me.png"
+import me from "../assets/perfil.jpg"
 import linkedin from "../assets/correo.png"
 import correo from "../assets/linke.png"
 import github from "../assets/xd.png"

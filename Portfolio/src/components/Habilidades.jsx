@@ -76,9 +76,7 @@ return (
                     <picture>
                         <img src={mongod} alt="mongod" />
                     </picture>
-                    <picture>
-                        <img src={express} alt="express" />
-                    </picture>
+                    
                     <picture>
                         <img src={bost} alt="bostrap" />
                     </picture>
