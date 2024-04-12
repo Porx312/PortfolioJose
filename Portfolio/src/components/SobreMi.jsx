@@ -9,7 +9,7 @@ const SobreMi = () => {
     <h2 className="about-me-text">Sobre Mi</h2>
     <article className="card-about-me">
         <div className="card-aboutmetext">
-            <p> ¡Hola! Soy Jose Blanco, <span>un apasionado desarrollador web con más de un año y tres meses de experiencia en el mundo de la programación</span>. Actualmente, trabajo en Subway, pero mi verdadera pasión se encuentra en el desarrollo web, donde paso mis momentos libres explorando documentación, participando en cursos y resolviendo desafiantes ejercicios de programación.</p>
+            <p> ¡Hola! Soy Jose Blanco, <span>un apasionado desarrollador web con más de un año y medio de experiencia en el mundo de la programación</span>. Actualmente, trabajo en Subway, pero mi verdadera pasión se encuentra en el desarrollo web, donde paso mis momentos libres explorando documentación, participando en cursos y resolviendo desafiantes ejercicios de programación.</p>
             <p>
             <span> Mi enfoque principal ha sido construir bases sólidas en JavaScript, HTML y CSS</span>. Aunque aún estoy perfeccionando mis habilidades, encuentro fascinante ver cómo cobra vida cada proyecto. React también es parte fundamental de mi arsenal, ya que me encanta trabajar con esta biblioteca.</p>
 
