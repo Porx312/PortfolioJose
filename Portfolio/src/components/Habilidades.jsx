@@ -22,13 +22,13 @@ const Habilidades = () => {
 const [skill, setSkill] = useState()
 return (
     <section id="habilidades" className="habilidades-tecnicas">
-    <h2>{skill? skill : "habilidades"}</h2>
+    <h2>{skill? skill : "Habilidades"}</h2>
     <menu className="menu-habilidades" >
         <ul>
-            <li onMouseEnter={(e)=> setSkill(e.target.id)} onMouseLeave={()=> setSkill()}  id="habilidades">Habilidades</li>
+            <li onMouseEnter={(e)=> setSkill(e.target.id)} onMouseLeave={()=> setSkill()}  id="Habilidades">Habilidades</li>
             <li onMouseEnter={(e)=> setSkill(e.target.id)} onMouseLeave={()=> setSkill()}   id="Aprendiendo">Aprendiendo</li>
-            <li onMouseEnter={(e)=> setSkill(e.target.id)} onMouseLeave={()=> setSkill()}  id="herramientas">Herramientas</li>
-            <li onMouseEnter={(e)=> setSkill(e.target.id)} onMouseLeave={()=> setSkill()}  id="extra">Extras</li>
+            <li onMouseEnter={(e)=> setSkill(e.target.id)} onMouseLeave={()=> setSkill()}  id="Herramientas">Herramientas</li>
+            <li onMouseEnter={(e)=> setSkill(e.target.id)} onMouseLeave={()=> setSkill()}  id="Extras">Extras</li>
         </ul>
     </menu>
     <article className="card-skills">

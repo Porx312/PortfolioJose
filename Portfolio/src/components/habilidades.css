@@ -30,7 +30,7 @@
 .cubo.cubo.Aprendiendo{
     animation: none;
 }
-.cubo.habilidades{
+.cubo.Habilidades{
     animation: none;
 }
 
@@ -116,35 +116,35 @@ gap:1rem;
     opacity: 0;
 }
 
-.cuboActive.habilidades .front{
+.cuboActive.Habilidades .front{
     transform: translateZ(150px);
 }
-.cuboActive.habilidades .back{
+.cuboActive.Habilidades .back{
     transform:  scaleY(-1) scaleX(-1) rotateX(180deg) translateZ(150px);
 }
 
-.cuboActive.habilidades .left, .cuboActive.habilidades .right{
+.cuboActive.Habilidades .left, .cuboActive.Habilidades .right{
     opacity: 0;
 }
 
-.cuboActive.extra .right{
+.cuboActive.Extras .right{
        
        transform: translateZ(150px);
 }
-.cuboActive.extra .front{
+.cuboActive.Extras .front{
     transform:  rotateY(-90deg) translateZ(150px);
 }
-.cuboActive.extra .back, .cuboActive.extra .left{
+.cuboActive.Extras .back, .cuboActive.Extras .left{
     opacity: 0;
 }
-.cuboActive.herramientas .left{    
+.cuboActive.Herramientas .left{    
     transform: translateZ(150px);
 }
 
-.cuboActive.herramientas .front{
+.cuboActive.Herramientas .front{
     transform:  rotateY(90deg) translateZ(150px);
 }
-.cuboActive.herramientas .back, .cuboActive.herramientas .right{
+.cuboActive.Herramientas .back, .cuboActive.Herramientas .right{
     opacity: 0;
 }
 

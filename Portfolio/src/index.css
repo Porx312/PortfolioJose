@@ -39,7 +39,6 @@ body{
 
 .content.lightmode, .content.lightmode h2, .content.lightmode h3{
     --content-color:linear-gradient(90deg, rgba(77,144,241,1) 0%, rgba(104,104,236,1) 50%, rgba(74,142,228,1) 100%);
-    --text-principal: rgb(255, 85, 0);
     --text-isWhite:rgb(255, 255, 255);
     --article-color: rgba(0, 0, 0, 0.2);
     --is-gray:rgba(37, 38, 39, 0.2);
@@ -56,7 +55,7 @@ body{
   }
   .experience-card{
     flex-wrap: wrap;
-
+    justify-content: start;
     padding-inline: 3rem;
   
 

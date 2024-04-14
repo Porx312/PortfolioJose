@@ -21,9 +21,15 @@
     color: var(--text-isWhite);
     z-index: 0;
 }
+.presentation-text h2 span{
+    color: var(--text-isWhite);
+    z-index: 0;
+    font-weight: bold;
+}
 .presentation-text h1{
     color: var(--text-principal);
     font-size: 3rem;
+    font-style: italic;
     font-weight: 700;
     z-index: 0;
     
@@ -31,7 +37,7 @@
 .presentation-btn-container{
     display: flex;
 }
- .btn-presentation{
+.btn-presentation{
     border: 0;
     margin: 0 .2rem;
     border-radius: 10px;
@@ -52,12 +58,12 @@
     text-decoration: none;
 }
 .btn-presentation:hover{
-    background-color: rgb(25, 25, 26);
+    background-color: rgb(49, 48, 48);
     
 }
 
 .presentation-btn-container img{
-   object-fit: contain;
+    object-fit: contain;
     width: 60%;
 }
 .presentation-picture{

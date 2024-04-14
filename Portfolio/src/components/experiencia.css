@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 2rem;
     gap: 1rem 0;
 
@@ -28,10 +28,10 @@
     color: white;
     display: flex;
     flex-direction: row;
-    padding-inline: 5rem;
-    justify-content: space-between;
+    margin: .8rem 0;
+    justify-content: center;
     align-items: center;    
-    gap: .8rem 0;
+    gap: .8rem 3rem;
 
 }
 .experience-card h2{
@@ -40,6 +40,7 @@
 }
 .experience-card .job p{
     font-size: .8rem;
+    color: rgb(196, 199, 199);
 }
 .experience-card .job h3{
     font-size: .9rem;
@@ -63,4 +64,25 @@ font-size: .9rem;
     height: 400px;
     background-color:rgba(117, 91, 251, 0.1);
     border-radius: 10px;
+}
+.work-active, .work-desactive{
+width: 10px;
+height: 10px;
+background: rgb(0, 255, 0);
+border-radius: 360px;
+}
+
+.work-desactive{
+    background-color: red;
+}
+
+.job{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+@media {min-width: 1200px} {
+    
 }
