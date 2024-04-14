@@ -8,7 +8,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
-    padding: 2rem;
+    padding: 1rem 10rem;
     gap: 1rem 0;
 
 }
@@ -32,6 +32,10 @@
     justify-content: center;
     align-items: center;    
     gap: .8rem 3rem;
+    background-color: rgba(32, 31, 32, 0.12);
+    padding: 1rem;
+    border-radius: 20px;
+    
 
 }
 .experience-card h2{
@@ -83,6 +87,3 @@ border-radius: 360px;
     gap: 1rem;
 }
 
-@media {min-width: 1200px} {
-    
-}

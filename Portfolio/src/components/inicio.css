@@ -32,7 +32,11 @@
     font-style: italic;
     font-weight: 700;
     z-index: 0;
-    
+}
+.location{
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
 }
 .presentation-btn-container{
     display: flex;
@@ -78,4 +82,8 @@
     
     width: 100%;
     object-fit: cover;
+}
+
+#dsweb{
+    filter: none;    
 }

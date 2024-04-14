@@ -60,6 +60,9 @@ body{
   
 
 }
+.experiencia-laboral{
+    padding: 1rem;
+}
 .card-skills .item{
     width: 50px;
     display: flex;
@@ -73,7 +76,7 @@ body{
   
   @media (max-width: 750px) {
     .content{
-      padding: 2rem 5rem;
+      padding: 2rem 4rem;
     }
     .experience-card{
         flex-wrap: wrap;
