@@ -80,6 +80,7 @@
     color: var(--text-principal);
 }
 .btn-proyects{
+    text-decoration: none;
     margin-top: .7rem;
     padding: .3rem 1.2rem;
     border-radius: 10px;

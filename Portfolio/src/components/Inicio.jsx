@@ -29,10 +29,10 @@ const Inicio = () => {
         <h2 className="location">{data.location}</h2>
         <div className="presentation-btn-container">
           <a className="btn-presentation" href={`mailto:joseblancodev@gmail.com?Subject=he%20mirado%20tu%20portfolio`} target="_blank" rel="noopener noreferrer">
-            <img src={correo} alt="contacto"/>
+            <img src={linkedin} alt="linkedin"/>
           </a>
           <a className="btn-presentation" href="https://www.linkedin.com/in/jos%C3%A9-blanco-83a12a254/" target="_blank" rel="noopener noreferrer">
-            <img src={linkedin} alt="linkedin"/>
+            <img src={correo} alt="contacto"/>
           </a>
           <a className="btn-presentation" href={data.html_url} target="_blank" rel="noopener noreferrer">
             <img src={github} alt="github"/>
