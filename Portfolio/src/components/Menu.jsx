@@ -69,7 +69,7 @@ const Menu = () => {
               Experiencia
             </a>
           </li>
-          <li>
+          <li onClick={()=> setBtnIsOpen(false)} >
             <a href="#habilidades" onClick={(e) => handleSmoothScroll(e, "habilidades")}>
               Habilidades
             </a>
