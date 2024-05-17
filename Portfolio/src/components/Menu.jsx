@@ -32,14 +32,20 @@ const Menu = () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
-  const handleSmoothScroll = (event, targetId) => {
+  const handleSmoothScroll = (event, targetId, offset = 200) => {
     event.preventDefault();
     const target = document.getElementById(targetId);
     if (target) {
+      const elementPosition = target.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - offset;
       target.scrollIntoView({ behavior: "smooth", block: "start" });
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth",
+      });
     }
   };
-
+ 
   return (
     <header className={scrolled ? (btnisopen ? "scrolled menu menuopen" : "scrolled menu menuclose") : (btnisopen ? "menu menuopen" : "menu menuclose")}>
 

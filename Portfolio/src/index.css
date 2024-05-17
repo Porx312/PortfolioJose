@@ -5,7 +5,7 @@
 }
 :root{
     --text-principal: rgb(255, 221, 0);
-    --article-color: rgba(117, 91, 251, 0.1);
+    --article-color:#02051e;
     --content-color:linear-gradient(90deg, rgb(2, 6, 21) 0%, rgb(2, 1, 19) 50%, rgb(12, 0, 30) 100%);;
     --text-isWhite:#fff;
     --is-gray:rgba(14, 13, 13, 0.7);
@@ -31,7 +31,7 @@ body{
     display: flex;
     flex-direction: column;
     width: 100%;
-
+    min-height: 100vh;
     background:var(--content-color);
     padding: 2rem 20rem;
     gap: 1.3rem 0;

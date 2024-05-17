@@ -12,6 +12,7 @@ import { isDarkOrLight } from "./DarkModeContext"
 
 function App() {
   const {isLight} = useContext(isDarkOrLight)
+  
   return (
      
     <main className={isLight ? "content lightmode" : "content"}>
