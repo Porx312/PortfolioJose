@@ -32,7 +32,7 @@ const Menu = () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
-  const handleSmoothScroll = (event, targetId, offset = 200) => {
+  const handleSmoothScroll = (event, targetId, offset = 150) => {
     event.preventDefault();
     const target = document.getElementById(targetId);
     if (target) {
