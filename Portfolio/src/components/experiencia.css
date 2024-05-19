@@ -32,7 +32,7 @@
     justify-content: center;
     align-items: center;    
     gap: .8rem 3rem;
-    background-color: rgba(32, 31, 32, 0.12);
+    background-color: var(--is-gray);
     padding: 1rem;
     border-radius: 20px;
     

@@ -10,7 +10,7 @@ const SobreMi = () => {
       id="sobremi"
       className={isLight ? "about-me lightmode" : "about-me"}
     >
-      <h2 className="about-me-text">Sobre Mi</h2>
+      <h2 className="about-me-text">SOBRE MI</h2>
       <article className="card-about-me">
         <div className="card-aboutmetext">
           <p>
